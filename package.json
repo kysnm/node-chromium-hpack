@@ -4,15 +4,16 @@
   "description": "Porting to Node.js from HPACK implementation of Chromium",
   "main": "index.js",
   "scripts": {
-    "test": "\"./node_modules/.bin/mocha -R spec\""
+    "test": "./node_modules/.bin/mocha -R spec"
   },
   "keywords": [
-    "\"http2\"",
-    "\"hpack\""
+    "http2",
+    "hpack"
   ],
   "author": "kysnm <tokyoincidents.g@gmail.com> (http://kysnm.hatenablog.com/)",
   "license": "MIT",
   "devDependencies": {
-    "mocha": "~1.21.0"
+    "mocha": "~1.21.0",
+    "chai": "~1.9.1"
   }
 }
